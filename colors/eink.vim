@@ -18,7 +18,7 @@ if !has('gui_running')
     hi Search       cterm=reverse                       ctermfg=NONE
     hi MoreMsg      cterm=bold                          ctermfg=NONE
     hi ModeMsg      cterm=bold                          ctermfg=NONE
-    hi LineNr       cterm=NONE                          ctermfg=235
+    exe "highlight! LineNr ctermfg=lightgray"
     hi StatusLine   cterm=bold,reverse                  ctermfg=NONE
     hi StatusLineNC cterm=reverse                       ctermfg=NONE
     hi VertSplit    cterm=reverse                       ctermfg=NONE
@@ -61,7 +61,7 @@ if !has('gui_running')
     hi Search       cterm=reverse                       ctermfg=NONE
     hi MoreMsg      cterm=bold                          ctermfg=NONE
     hi ModeMsg      cterm=bold                          ctermfg=NONE
-    hi LineNr       cterm=NONE                          ctermfg=238
+    exe "highlight! LineNr ctermfg=lightgray"
     hi StatusLine   cterm=bold,reverse                  ctermfg=NONE
     hi StatusLineNC cterm=reverse                       ctermfg=NONE
     hi VertSplit    cterm=reverse                       ctermfg=NONE
@@ -106,7 +106,7 @@ else
     hi Search       gui=reverse                         guifg=NONE
     hi MoreMsg      gui=bold                            guifg=NONE
     hi ModeMsg      gui=bold                            guifg=NONE
-    hi LineNr       gui=NONE                            guifg=gray60
+    exe "highlight! LineNr ctermfg=lightgray"
     hi StatusLine   gui=bold,reverse                    guifg=NONE
     hi StatusLineNC gui=reverse                         guifg=NONE
     hi VertSplit    gui=reverse                         guifg=NONE
@@ -149,7 +149,7 @@ else
     hi Search       gui=reverse                         guifg=NONE
     hi MoreMsg      gui=bold                            guifg=NONE
     hi ModeMsg      gui=bold                            guifg=NONE
-    hi LineNr       gui=NONE                            guifg=gray30
+    exe "highlight! LineNr ctermfg=lightgray"
     hi StatusLine   gui=bold,reverse                    guifg=NONE
     hi StatusLineNC gui=reverse                         guifg=NONE
     hi VertSplit    gui=reverse                         guifg=NONE
